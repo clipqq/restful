@@ -148,4 +148,9 @@ $(function () {
             }
         ]
     });
+
+    // // Gallery center
+    // $('.tm-gallery').css(
+
+    // )
 });

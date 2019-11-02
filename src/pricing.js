@@ -1,26 +1,8 @@
 import React from 'react'
 
-export default function Homepage() {
+export default function Pricing() {
     return (
-        <div className="homepage">
-
-            <section id="hero" class="text-white tm-font-big tm-parallax">
-
-                <div class="text-center tm-hero-text-container">
-                    <div class="tm-hero-text-container-inner">
-                        <h2 class="tm-hero-title">Welcome to RESful</h2>
-                        <p class="tm-hero-subtitle">
-                            Want to invest? We'll handle the rest. Fully.
-              </p>
-                    </div>
-                </div>
-
-                <div class="tm-next tm-intro-next">
-                    <a href="#work" class="text-center tm-down-arrow-link">
-                        <i class="fas fa-3x fa-caret-down tm-down-arrow"></i>
-                    </a>
-                </div>
-            </section>
+        <div className="about">
 
             <section id="work" className="tm-section-pad-top">
                 <div className="container tm-container-gallery">
@@ -108,6 +90,7 @@ export default function Homepage() {
                     </div>
                 </div>
             </section>
+
         </div>
     )
 }
