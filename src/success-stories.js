@@ -15,60 +15,74 @@ export default function SuccessStories() {
                     </div>
                 </div>
 
-                <div class="tm-next tm-intro-next">
-                    <a href="#introduction" class="text-center tm-down-arrow-link">
+                {/* <div class="tm-next tm-intro-next">
+                    <a href="#story-1" class="text-center tm-down-arrow-link">
                         <i class="fas fa-3x fa-caret-down tm-down-arrow"></i>
                     </a>
-                </div>
+                </div> */}
             </section>
 
-            <section id="contact" className="tm-section-pad-top tm-parallax-2">
-                <div className="container tm-container-contact">
-                    <div className="row">
-                        <div className="col-12">
-                            <h2 className="mb-4 tm-section-title">Contact Us</h2>
-                            <div className="mb-5 tm-underline">
-                                <div className="tm-underline-inner" />
+
+            <section id="story-1" class="tm-section-pad-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="img/the-town-01.jpg" alt="Image" class="img-fluid tm-intro-img" />
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="tm-intro-text-container">
+                                <h2 class="tm-text-primary mb-4 tm-section-title">Justin</h2>
+                                <p class="mb-4 tm-intro-text">
+                                    Justin was just a regular guy. Now he's a millionaire.    </p>
+                                <p class="mb-5 tm-intro-text">
+                                    He owns 5 houses on the French Riviera. In his free time, he dates supermodels and organizes his stamp collection.
+                                </p>
                             </div>
-                            <p className="mb-5">
-                                Nullam tincidunt, lacus a suscipit luctus, elit turpis tincidunt dui,
-                                non tempus sem turpis vitae lorem. Maecenas eget odio in sapien ultrices
-                                viverra vitae vel leo. Curabitur at elit eu risus pharetra pellentesque
-                                at at velit.
-                </p>
-                        </div>
-                        <div className="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-                            <a href="tel:0100200340" className="tm-contact-item-link">
-                                <i className="fas fa-3x fa-phone mr-4" />
-                                <span className="mb-0">010-020-0340</span>
-                            </a>
-                        </div>
-                        <div className="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-                            <a href="mailto:info@company.co" className="tm-contact-item-link">
-                                <i className="fas fa-3x fa-envelope mr-4" />
-                                <span className="mb-0">info@company.co</span>
-                            </a>
-                        </div>
-                        <div className="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-                            <a href="https://www.google.com/maps" className="tm-contact-item-link">
-                                <i className="fas fa-3x fa-map-marker-alt mr-4" />
-                                <span className="mb-0">Location on Maps</span>
-                            </a>
-                        </div>
-                        <div className="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-                            <form action method="get">
-                                <input name="email" type="email" placeholder="Subscribe your email" className="tm-input" required />
-                                <button type="submit" className="btn tm-btn-submit">Submit</button>
-                            </form>
                         </div>
                     </div>
                 </div>
-                <footer className="text-center small tm-footer">
-                    <p className="mb-0">
-                        Copyright © 2019 Resful
-                </p>
-                </footer>
             </section>
+
+            <section id="story-2" class="tm-section-pad-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="img/the-town-01.jpg" alt="Image" class="img-fluid tm-intro-img" />
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="tm-intro-text-container">
+                                <h2 class="tm-text-primary mb-4 tm-section-title">Steven</h2>
+                                <p class="mb-4 tm-intro-text">
+                                    Steven was just a regular guy. Now he travels Latin America in search of El Dorado.</p>
+                                <p class="mb-5 tm-intro-text">
+                                    He owns 24 properties in California. In his free time, he wins tango competitions and teaches yoga to children.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="story-2" class="tm-section-pad-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="img/the-town-01.jpg" alt="Image" class="img-fluid tm-intro-img" />
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="tm-intro-text-container">
+                                <h2 class="tm-text-primary mb-4 tm-section-title">Jeanette</h2>
+                                <p class="mb-4 tm-intro-text">
+                                    Jeanette was just a regular girl. Now she runs a Michelin starred restaurant.</p>
+                                <p class="mb-5 tm-intro-text">
+                                    She owns 12 properties in four different states. In her free time, she designs wine glasses and bird watches.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
 
         </div>
     )

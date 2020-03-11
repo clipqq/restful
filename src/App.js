@@ -6,46 +6,40 @@ import Contact from './contact'
 import SuccessStories from './success-stories'
 import Pricing from './pricing'
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+
+console.log(process.env.REACT_APP_MAILCHIMP_API_KEY)
 
 class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
+    render() {
+        return (
+            <div className="App">
+                <Navbar />
 
-        <Navbar />
+                <Router>
+                    <Switch>
+                        <Route exact path="/">
+                            <Homepage />
+                        </Route>
 
-        <Router >
+                        <Route path="/about">
+                            <About />
+                        </Route>
 
-          <Switch>
-            <Route exact path="/">
-              <Homepage />
-            </Route>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/success-stories">
-              <SuccessStories />
-            </Route>
-            <Route path="/contact">
-              <Contact />
-            </Route>
-            <Route path="/pricing">
-              <Pricing />
-            </Route>
-          </Switch>
+                        <Route path="/method">
+                            <Pricing />
+                        </Route>
 
-        </Router>
+                        <Route path="/success-stories">
+                            <SuccessStories />
+                        </Route>
+                    </Switch>
+                </Router>
 
-        <Contact />
-
-      </div>
-    )
-  }
+                <Contact />
+            </div>
+        )
+    }
 }
 
 export default App

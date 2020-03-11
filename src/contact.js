@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export default function Contact() {
+export default function Contact(props) {
     return (
         <div className="contact">
 
@@ -21,27 +21,32 @@ export default function Contact() {
                 </p>
                         </div>
                         <div className="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-                            <a href="tel:0100200340" className="tm-contact-item-link">
+                            <a href="tel:1-415-217-9665" className="tm-contact-item-link">
                                 <i className="fas fa-3x fa-phone mr-4" />
-                                <span className="mb-0">010-020-0340</span>
+                                <span className="mb-0">1-415-217-9665</span>
                             </a>
                         </div>
                         <div className="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-                            <a href="mailto:info@company.co" className="tm-contact-item-link">
+                            <a href="mailto:info@resful.com" className="tm-contact-item-link">
                                 <i className="fas fa-3x fa-envelope mr-4" />
-                                <span className="mb-0">info@company.co</span>
+                                <span className="mb-0">info@resful.com</span>
                             </a>
                         </div>
                         <div className="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-                            <a href="https://www.google.com/maps" className="tm-contact-item-link">
+                            <a href="https://goo.gl/maps/rDNREnRJj5QJP4KW9" className="tm-contact-item-link">
                                 <i className="fas fa-3x fa-map-marker-alt mr-4" />
-                                <span className="mb-0">Location on Maps</span>
+                                <span className="mb-0">Locate Our Office</span>
                             </a>
                         </div>
                         <div className="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-                            <form action method="get">
+                            <form action="true" method="get">
                                 <input name="email" type="email" placeholder="Subscribe your email" className="tm-input" required />
-                                <button type="submit" className="btn tm-btn-submit">Submit</button>
+                                <button
+                                    type="submit"
+                                    className="btn tm-btn-submit"
+                                    onClick={() => props.handleSubmit}>
+                                    Submit
+                                    </button>
                             </form>
                         </div>
                     </div>
@@ -57,3 +62,6 @@ export default function Contact() {
     )
 }
 
+Contact.defaultProps = {
+    handleSubmit: () => {},
+  }
