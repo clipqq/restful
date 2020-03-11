@@ -8,53 +8,53 @@ export default function Homepage() {
 
             <Navbar />
 
-            <section id="hero" class="text-white tm-font-big tm-parallax">
+            <section id="hero" className="text-white tm-font-big tm-parallax">
 
-                <div class="text-center tm-hero-text-container">
-                    <div class="tm-hero-text-container-inner">
-                        <h2 class="tm-hero-title">Welcome to Resful</h2>
-                        <p class="tm-hero-subtitle">
+                <div className="text-center tm-hero-text-container">
+                    <div className="tm-hero-text-container-inner">
+                        <h2 className="tm-hero-title">Welcome to Resful</h2>
+                        <p className="tm-hero-subtitle">
                             Property Management Simplified
               </p>
                     </div>
                 </div>
 
-                <div class="tm-next tm-intro-next">
-                    <a href="#introduction" class="text-center tm-down-arrow-link">
-                        <i class="fas fa-3x fa-caret-down tm-down-arrow"></i>
+                <div className="tm-next tm-intro-next">
+                    <a href="#introduction" className="text-center tm-down-arrow-link">
+                        <i className="fas fa-3x fa-caret-down tm-down-arrow"></i>
                     </a>
                 </div>
             </section>
 
-            <section id="introduction" class="tm-section-pad-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <img src="img/the-town-01.jpg" alt="Image" class="img-fluid tm-intro-img" />
+            <section id="introduction" className="tm-section-pad-top">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <img src="img/the-town-01.jpg" alt="Image" className="img-fluid tm-intro-img" />
                         </div>
-                        <div class="col-lg-6">
-                            <div class="tm-intro-text-container">
-                                <h2 class="tm-text-primary mb-4 tm-section-title">Introduction</h2>
-                                <p class="mb-4 tm-intro-text">
+                        <div className="col-lg-6">
+                            <div className="tm-intro-text-container">
+                                <h2 className="tm-text-primary mb-4 tm-section-title">Introduction</h2>
+                                <p className="mb-4 tm-intro-text">
                                     The Town is <strong>simple CSS template</strong> built on Bootstrap v4.1.3
                                     and this is a little parallax layout that you can use for your websites.
                 </p>
-                                <p class="mb-5 tm-intro-text">
+                                <p className="mb-5 tm-intro-text">
                                     Please tell your friends about our site
                     <a rel="nofollow" href="https://templatemo.com">templatemo</a>. Thank you.
                                                                                                                                                         Curabitur dapibus tristique enim a imperdiet. Etiam
                 tristique sem sed condimentum posuere. </p>
-                                <div class="tm-next">
-                                    <a href="#work" class="tm-intro-text tm-btn-primary">Read More</a>
+                                <div className="tm-next">
+                                    <a href="#work" className="tm-intro-text tm-btn-primary">Read More</a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row tm-section-pad-top">
-                        <div class="col-lg-4">
-                            <i class="fas fa-4x fa-bus text-center tm-icon"></i>
-                            <h4 class="text-center tm-text-primary mb-4">Curabitur at elit eu risus</h4>
+                    <div className="row tm-section-pad-top">
+                        <div className="col-lg-4">
+                            <i className="fas fa-4x fa-bus text-center tm-icon"></i>
+                            <h4 className="text-center tm-text-primary mb-4">Curabitur at elit eu risus</h4>
                             <p>
                                 Sed ultrices sit amet mi eu malesuada. Cras ultricies gravida
                                 nisi, ac pellentesque nunc tincidunt quis. Aenean at ornare lacus.
@@ -62,18 +62,18 @@ export default function Homepage() {
               </p>
                         </div>
 
-                        <div class="col-lg-4 mt-5 mt-lg-0">
-                            <i class="fas fa-4x fa-bicycle text-center tm-icon"></i>
-                            <h4 class="text-center tm-text-primary mb-4">Nunc sed metus vel nisi</h4>
+                        <div className="col-lg-4 mt-5 mt-lg-0">
+                            <i className="fas fa-4x fa-bicycle text-center tm-icon"></i>
+                            <h4 className="text-center tm-text-primary mb-4">Nunc sed metus vel nisi</h4>
                             <p>
                                 Praesent ut finibus leo. Duis et tempus ipsum, id pretium nunc.
                                 Vivamus imperdiet sem quis orci pharetra convallis. Nunc a tempus
                                 nisi, sed fringilla purus. In hac habitasse platea.
             </p>
                         </div>
-                        <div class="col-lg-4 mt-5 mt-lg-0">
-                            <i class="fas fa-4x fa-city text-center tm-icon"></i>
-                            <h4 class="text-center tm-text-primary mb-4">Fusce sed nisi sagittis</h4>
+                        <div className="col-lg-4 mt-5 mt-lg-0">
+                            <i className="fas fa-4x fa-city text-center tm-icon"></i>
+                            <h4 className="text-center tm-text-primary mb-4">Fusce sed nisi sagittis</h4>
                             <p>
                                 Donec vestibulum libero nisl. Curabitur ac orci ac lorem blandit
                                 volutpat. Sed ac sodales nibh, ut porttitor elit. Sed id dui mi.
@@ -205,7 +205,7 @@ export default function Homepage() {
                             </a>
                         </div>
                         <div className="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-                            <form action method="get">
+                            <form action="true" method="get">
                                 <input name="email" type="email" placeholder="Subscribe your email" className="tm-input" required />
                                 <button type="submit" className="btn tm-btn-submit">Submit</button>
                             </form>
